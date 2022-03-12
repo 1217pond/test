@@ -1,5 +1,6 @@
 function run(){
-  console.log(CryptoJS.AES.encrypt(SrcText.value, KeyText.value));
+  let a = CryptoJS.AES.encrypt(SrcText.value, KeyText.value);
+  console.log(a);
 }
 
 encryption.addEventListener("click",run);
