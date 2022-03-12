@@ -1,0 +1,1 @@
+encryption.addEventListener("click",run);
