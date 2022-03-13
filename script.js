@@ -1,3 +1,5 @@
+import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+
 function run(){
   let a = CryptoJS.AES.encrypt(SrcText.value, KeyText.value).toString();
   console.log(a);
